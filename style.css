@@ -269,3 +269,70 @@ btn-color-2 {
 .btn-container {
   gap: 1rem;
 }
+
+/* about section */
+
+#about {
+  position: relative;
+}
+
+.about-containers {
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: 50%;
+  bottom: 2rem;
+  cursor: pointer;
+  transform: translateX(50%);
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+/* Arrow Icon Style for Profile Section */
+#profile .arrow {
+  position: absolute;
+  right: 50%;
+  bottom: 2rem;
+  cursor: pointer;
+  transform: translateX(50%);
+}
+
+/* projects section */
+
