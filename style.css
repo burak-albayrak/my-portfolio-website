@@ -337,7 +337,6 @@ btn-color-2 {
   max-width: 95%;
 }
 
-
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -469,7 +468,7 @@ btn-color-2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 80vh;
 }
 
 .contact-info-upper-container {
@@ -506,7 +505,7 @@ btn-color-2 {
 /* footer */
 
 footer {
-  height: 27vh;
+  height: 24vh;
   margin: 0 1rem;
 }
 
