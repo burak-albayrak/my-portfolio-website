@@ -289,7 +289,7 @@ btn-color-2 {
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 200px;
+  margin-top: 75px;
 }
 
 .timeline {
@@ -301,6 +301,8 @@ btn-color-2 {
 
 .text-container {
   flex: 1;
+  margin-top: 150px;
+  align-items: center;
 }
 
 .about-containers,
@@ -332,6 +334,7 @@ btn-color-2 {
 
 .justified-text {
   text-align: justify;
+  max-width: 95%;
 }
 
 
@@ -498,4 +501,25 @@ btn-color-2 {
 
 .email-icon {
   height: 2.5rem;
+}
+
+/* footer */
+
+footer {
+  height: 27vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  height: 100px;
+  width: auto;
 }
