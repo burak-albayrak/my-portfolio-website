@@ -281,7 +281,6 @@ btn-color-2 {
   gap: 2rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
-
 }
 
 .about-details-container {
@@ -534,31 +533,49 @@ footer p {
   width: auto;
 }
 
+.logo-image-experience {
+  height: 150px;
+  width: auto;
+}
+
+/* experience timeline */
+
 .experience-timeline {
-  transform: rotate(-90deg); /* 90 derece sola döndür */
   margin: 0 auto;
-  max-width: 750px;
-  padding: 25px;
+  max-width: 650px;
+  padding: 30px;
   display: grid;
   grid-template-columns: 1fr 3px 1fr;
   color: rgb(53, 53, 53);
-  margin-right: 500px;
+  transform: rotate(-90deg);
+  transform-origin: center;
 }
 
-.experience-timeline .timeline__component,
-.experience-timeline .timeline__component--bg {
-  transform: rotate(90deg); /* Bileşenleri tekrar doğru yönde döndür */
+.experience-timeline__component {
+  margin: 0 20px 20px 20px;
 }
 
-.experience-timeline .timeline__middle {
+.experience-timeline__component--bg {
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transform: rotate(90deg);
+}
+
+/* LEAVE TILL LAST */
+.experience-timeline__component--bottom {
+  margin-bottom: 0;
+}
+
+.experience-timeline__middle {
   position: relative;
   background: rgb(53, 53, 53);
-  height: 400px;
 }
 
-.experience-timeline .timeline__point {
-  position: absolute;
-  top: 0;
+.experience-timeline__point {
+  position: relative;
+  top: 42%;
   left: 50%;
   transform: translateX(-50%);
   width: 15px;
@@ -567,28 +584,33 @@ footer p {
   border-radius: 50%;
 }
 
-.experience-timeline .timeline__component--bg {
-  padding: 1.5em;
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-}
-
 /* LEAVE TILL LAST */
-.experience-timeline .timeline__component--bottom {
-  margin-bottom: 0;
+.experience-timeline__point--bottom {
+  top: initial;
+  bottom: 0;
 }
 
-.experience-timeline .timeline__date--right {
+.experience-timeline__date {
+  align-self: flex-start;
+  margin-top: 6.2em;
+}
+
+.experience-timeline__date--right {
   text-align: right;
+  margin-top: 7.5em;
 }
 
-.experience-timeline .timeline__title {
+.experience-timeline__date--final {
+  text-align: right;
+  margin-top: 1.5em;
+}
+
+.experience-timeline__title {
   margin: 0;
   font-size: 1.15em;
   font-weight: bold;
 }
 
-.experience-timeline .timeline__paragraph {
+.experience-timeline__paragraph {
   line-height: 1.5;
 }
