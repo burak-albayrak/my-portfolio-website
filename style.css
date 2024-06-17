@@ -540,77 +540,91 @@ footer p {
 
 /* experience timeline */
 
-.experience-timeline {
-  margin: 0 auto;
-  max-width: 650px;
-  padding: 30px;
-  display: grid;
-  grid-template-columns: 1fr 3px 1fr;
-  color: rgb(53, 53, 53);
-  transform: rotate(-90deg);
-  transform-origin: center;
+.rotate {
+  transform: rotate(45deg);
 }
 
-.experience-timeline__component {
-  margin: 0 20px 20px 20px;
+.box-shadow {
+  box-shadow: inset 0 0 0 0em #ef795a;
 }
 
-.experience-timeline__component--bg {
-  padding: 1.5em;
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  transform: rotate(90deg);
-}
-
-/* LEAVE TILL LAST */
-.experience-timeline__component--bottom {
-  margin-bottom: 0;
-}
-
-.experience-timeline__middle {
+/* Experience Timeline */
+.experience__timeline {
+  margin: 8em auto;
   position: relative;
-  background: rgb(53, 53, 53);
+  max-width: 46em;
 }
 
-.experience-timeline__point {
+.experience__timeline:before {
+  content: '';
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 2px;
+  height: 100%;
+  background-color: black;
+}
+
+.timeline__event {
   position: relative;
-  top: 42%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 15px;
-  height: 15px;
-  background: rgb(53, 53, 53);
-  border-radius: 50%;
 }
 
-/* LEAVE TILL LAST */
-.experience-timeline__point--bottom {
-  top: initial;
-  bottom: 0;
+.timeline__event:hover .timeline__event-icon {
+  transform: rotate(-45deg);
+  background-color: rgb(168, 50, 121);
 }
 
-.experience-timeline__date {
-  align-self: flex-start;
-  margin-top: 6.2em;
+.timeline__event:hover .timeline__event-thumbnail {
+  box-shadow: inset 40em 0 0 0 rgb(168, 50, 121);
 }
 
-.experience-timeline__date--right {
-  text-align: right;
-  margin-top: 7.5em;
+.timeline__event-copy {
+  padding: 2em;
+  position: relative;
+  top: -1.875em;
+  left: 4em;
+  width: 80%;
 }
 
-.experience-timeline__date--final {
-  text-align: right;
-  margin-top: 1.5em;
+.timeline__event-copy h3 {
+  font-size: 1.75em;
 }
 
-.experience-timeline__title {
-  margin: 0;
-  font-size: 1.15em;
-  font-weight: bold;
+.timeline__event-copy h4 {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
 }
 
-.experience-timeline__paragraph {
-  line-height: 1.5;
+.timeline__event-copy strong {
+  font-weight: 700;
+}
+
+.timeline__event-copy p:not(.timeline__event-thumbnail) {
+  padding-bottom: 0.3em;
+}
+
+.timeline__event-icon {
+  transition: transform 0.2s ease-in;
+  transform: rotate(45deg);
+  background-color: black;
+  outline: 10px solid white;
+  display: block;
+  margin: 0.5em 0.5em 0.5em -0.5em;
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 1em;
+  height: 1em;
+}
+
+.timeline__event-thumbnail {
+  transition: box-shadow 0.5s ease-in 0.1s;
+  color: white;
+  font-size: 0.75em;
+  background-color: black;
+  box-shadow: inset 0 0 0 0em #ef795a;
+  display: inline-block;
+  margin-bottom: 1.2em;
+  padding: 0.25em 1em 0.2em 1em;
 }
