@@ -172,7 +172,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 70vh;
 }
 
 .section__pic-container {
@@ -274,7 +274,7 @@ btn-color-2 {
 
 #about {
   position: relative;
-
+  margin-top: 100px;
 }
 
 .about-containers {
@@ -317,6 +317,22 @@ btn-color-2 {
   position: absolute;
   right: 50%;
   bottom: 2rem;
+  cursor: pointer;
+  transform: translateX(50%);
+}
+
+.experience-arrow {
+  position: absolute;
+  right: 50%;
+  bottom: -7rem;
+  cursor: pointer;
+  transform: translateX(50%);
+}
+
+.profile-arrow {
+  position: absolute;
+  right: 50%;
+  bottom: -3rem;
   cursor: pointer;
   transform: translateX(50%);
 }
@@ -466,6 +482,7 @@ btn-color-2 {
 
 #experience {
   position: relative;
+  margin-bottom: 150px;
 }
 
 #project {
@@ -550,9 +567,9 @@ footer p {
 
 /* Experience Timeline */
 .experience__timeline {
-  margin: 8em auto;
+  margin: 5em auto;
   position: relative;
-  max-width: 46em;
+  max-width: 52em;
 }
 
 .experience__timeline:before {
