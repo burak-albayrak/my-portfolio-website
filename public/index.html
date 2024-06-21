@@ -396,5 +396,29 @@
       <p>Copyright &#169; 2024 Ahmet Burak Albayrak. All Rights Reserved.</p>
     </footer>
     <script src = "script.js"></script>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDNwc77LxUBFS7QeAInLX34dwYndTS5r6Y",
+        authDomain: "burrk-portfolio.firebaseapp.com",
+        projectId: "burrk-portfolio",
+        storageBucket: "burrk-portfolio.appspot.com",
+        messagingSenderId: "1028585689860",
+        appId: "1:1028585689860:web:2a0c2dbc4e552f2890f651",
+        measurementId: "G-MTZE906XBX"
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
