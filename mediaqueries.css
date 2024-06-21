@@ -115,7 +115,7 @@
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 425px) {
+@media screen and (min-width: 500px) and (max-width: 1200px) {
   #contact, footer {
     height: 40vh;
   }
@@ -126,7 +126,250 @@
 
   #about-mobil {
     display: inline-block;
+    margin-top: -1rem;
+  }
+
+  #profile {
+    height: 80vh;
+    margin-bottom: 0;
+    margin-top: 100px;
+  }
+
+  #experience {
+    margin-top: 20px;
+  }
+
+  .experience__timeline:before {
+    content: '';
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    left: -1em;
+    width: 2px;
+    height: 100%;
+    background-color: black;
+  }
+
+  .timeline__event-icon {
+    left: -1em;
+  }
+
+  .timeline__event-icon-2 {
+    left: -1em;
+  }
+
+  .timeline__event-copy {
+    padding: 2em;
+    position: relative;
+    top: -1.875em;
+    left: 4em;
+    width: 125%;
+    margin-bottom: -35px;
+    margin-left: -75px;
+  }
+
+  .timeline__event-copy h3 {
+    font-size: 1.50em;
+  }
+
+  .timeline__event-copy h4 {
+    font-size: 1em;
+    margin-bottom: 0.3em;
+  }
+
+  .timeline__event-copy strong {
+    font-weight: 700;
+  }
+
+  .timeline__event-copy p:not(.timeline__event-thumbnail) {
+    padding-bottom: 0.3em;
+  }
+
+  .article {
+    font-size: 1rem;
+  }
+
+  footer nav {
+    height: fit-content;
     margin-top: 2rem;
+  }
+
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .text-container {
+    text-align: justify;
+  }
+
+  .experience-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: -70px;
+    margin-right: -10px;
+  }
+
+  .logo-image-experience {
+    display: none;
+  }
+
+  .logo-image-experience-2 {
+    display: none;
+  }
+
+  .justified-text {
+    text-align: justify;
+    max-width: 88.5%;
+    font-size: 1em;
+    margin-left: 80px;
+  }
+
+  .justified-text-experience {
+    text-align: justify;
+    max-width: 95%;
+    font-size: 0.80em;
+    margin: 0.2rem;
+  }
+
+
+  .logo-image-timeline {
+    height: 110px;
+    width: auto;
+  }
+
+  .timeline {
+    margin: 0 auto;
+    max-width: 750px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    color: rgb(53, 53, 53);
+    margin-top: 30px;
+  }
+
+  .timeline__component--bg {
+    padding: 0.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+
+  .timeline__title {
+    margin: 0;
+    font-size: 1.30em;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .timeline__paragraph {
+    margin-top: 15px;
+    line-height: 1;
+    font-size: 1em;
+  }
+
+  .timeline__date {
+    align-self: flex-start;
+    margin-top: 5.7em;
+    font-size: 1em;
+  }
+
+  .timeline__date--right {
+    text-align: right;
+    margin-top: 7.5em;
+  }
+
+  .timeline__date--final {
+    text-align: right;
+    margin-top: 1em;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .experience-arrow {
+    display: none;
+  }
+
+  .profile-arrow {
+    display: none;
+  }
+
+  footer {
+    height: 6vh;
+    margin: 0 1rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  #contact {
+    height: 50vh;
+  }
+
+  .contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: rgb(250,250,250);
+    margin: 2rem auto;
+    padding: 0.7rem
+  }
+
+  .contact-info-container {
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 500px) {
+  #contact, footer {
+    height: 40vh;
+  }
+
+  #about {
+    display: none;
+  }
+
+  #about-mobil {
+    display: inline-block;
+    margin-top: -50px;
   }
 
   #profile {
@@ -352,6 +595,7 @@
     margin: 2rem auto;
     padding: 1rem
   }
+
 }
 
 @media screen and (min-width: 0px) and (max-width: 375px) {
