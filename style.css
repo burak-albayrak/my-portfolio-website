@@ -360,7 +360,6 @@ btn-color-2 {
   max-width: 95%;
   font-size: 0.85em;
   margin: 0.2rem;
-
 }
 
 .section-container {
@@ -615,7 +614,7 @@ footer p {
   top: -1.875em;
   left: 4em;
   width: 93%;
-  margin-bottom: -25px;
+  margin-bottom: -35px;
 }
 
 .timeline__event-copy h3 {
@@ -694,8 +693,8 @@ footer p {
 .logo-image-experience-2 {
   width: 200px;
   height: auto;
-  margin-top: 70px;
-  margin-bottom: 80px;
+  margin-top: 60px;
+  margin-bottom: 90px;
 }
 
 .logos-container {
