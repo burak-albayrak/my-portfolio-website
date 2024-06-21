@@ -204,6 +204,7 @@ section {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 1rem;
+  margin-top: -0.5rem;
 }
 
 #socials-container {
@@ -301,7 +302,8 @@ btn-color-2 {
 .text-container {
   flex: 1;
   align-items: center;
-  margin-left: -50px;
+  margin-left: -60px;
+  margin-top: -15px;
 }
 
 .about-containers,
@@ -316,7 +318,7 @@ btn-color-2 {
 .arrow {
   position: absolute;
   right: 50%;
-  bottom: 2rem;
+  bottom: 1.5rem;
   cursor: pointer;
   transform: translateX(50%);
 }
@@ -350,6 +352,15 @@ btn-color-2 {
 .justified-text {
   text-align: justify;
   max-width: 95%;
+  font-size: 0.85em;
+}
+
+.justified-text-experience {
+  text-align: justify;
+  max-width: 95%;
+  font-size: 0.85em;
+  margin: 0.2rem;
+
 }
 
 .section-container {
@@ -462,17 +473,19 @@ btn-color-2 {
 
 .timeline__date--final {
   text-align: right;
-  margin-top: 0.2em;
+  margin-top: 0.1em;
 }
 
 .timeline__title {
   margin: 0;
-  font-size: 1.15em;
+  font-size: 1em;
   font-weight: bold;
+  line-height: 2;
 }
 
 .timeline__paragraph {
-  line-height: 1.5;
+  line-height: 1;
+  font-size: 0.90em;
 }
 
 /* fixing navigator */
@@ -547,6 +560,11 @@ footer p {
 
 .logo-image {
   height: 100px;
+  width: auto;
+}
+
+.logo-image-timeline {
+  height: 90px;
   width: auto;
 }
 
@@ -669,7 +687,7 @@ footer p {
 .logo-image-experience {
   width: 250px;
   height: auto;
-  margin-top: 40px;
+  margin-top: 60px;
   margin-bottom: 80px;
 }
 
