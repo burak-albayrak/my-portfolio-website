@@ -301,6 +301,7 @@ btn-color-2 {
 .text-container {
   flex: 1;
   align-items: center;
+  margin-left: -50px;
 }
 
 .about-containers,
@@ -323,7 +324,7 @@ btn-color-2 {
 .experience-arrow {
   position: absolute;
   right: 50%;
-  bottom: -7rem;
+  bottom: 1rem;
   cursor: pointer;
   transform: translateX(50%);
 }
@@ -407,8 +408,8 @@ btn-color-2 {
   display: grid;
   grid-template-columns: 1fr 3px 1fr;
   color: rgb(53, 53, 53);
-  margin-right: -125px;
-  margin-top: -50px;
+  margin-right: -150px;
+  margin-top: -90px;
 }
 
 .timeline__component {
@@ -461,7 +462,7 @@ btn-color-2 {
 
 .timeline__date--final {
   text-align: right;
-  margin-top: 1.5em;
+  margin-top: 0.2em;
 }
 
 .timeline__title {
@@ -482,7 +483,6 @@ btn-color-2 {
 
 #experience {
   position: relative;
-  margin-bottom: 150px;
 }
 
 #project {
@@ -647,7 +647,9 @@ footer p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-left: -300px;
+  margin-right: -300px;
 }
 
 .timeline-and-image-container {
@@ -665,9 +667,16 @@ footer p {
 }
 
 .logo-image-experience {
+  width: 250px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.logo-image-experience-2 {
   width: 200px;
   height: auto;
-  margin-top: 60px;
+  margin-top: 70px;
   margin-bottom: 80px;
 }
 
