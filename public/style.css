@@ -367,6 +367,12 @@ btn-color-2 {
   margin: 0.2rem;
 }
 
+.justified-text-experience-last {
+  max-width: 95%;
+  font-size: 0.80em;
+  margin: 0.2rem;
+}
+
 .section-container {
   gap: 4rem;
   height: 80%;
