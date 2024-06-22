@@ -43,6 +43,12 @@
     margin: 0.2rem;
   }
 
+  .justified-text-experience-last {
+    max-width: 95%;
+    font-size: 0.80em;
+    margin: 0.2rem;
+  }
+
   .timeline-and-image-container {
     display: flex;
     justify-content: space-between;
@@ -265,6 +271,11 @@
     margin: 0.2rem;
   }
 
+  .justified-text-experience-last {
+    max-width: 95%;
+    font-size: 0.80em;
+    margin: 0.2rem;
+  }
 
   .logo-image-timeline {
     height: 110px;
@@ -508,6 +519,11 @@
     margin: 0.2rem;
   }
 
+  .justified-text-experience-last {
+    max-width: 95%;
+    font-size: 0.80em;
+    margin: 0.2rem;
+  }
 
   .logo-image-timeline {
     height: 60px;
@@ -748,6 +764,11 @@
     margin: 0.2rem;
   }
 
+  .justified-text-experience-last {
+    max-width: 95%;
+    font-size: 0.80em;
+    margin: 0.2rem;
+  }
 
   .logo-image-timeline {
     height: 60px;
@@ -779,7 +800,7 @@
   }
 
   .timeline__paragraph {
-    margin-top: 15px;
+    margin-top: 8px;
     line-height: 1;
     font-size: 0.70em;
   }
