@@ -415,6 +415,12 @@ btn-color-2 {
   color: black;
 }
 
+.project-title-pr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
